@@ -1,1 +1,12 @@
 # http://deniswebsites.github.io/lasaretty/index.html
+# http://deniswebsites.github.io/lasaretty/404.html
+# http://deniswebsites.github.io/lasaretty/contacts.html
+# http://deniswebsites.github.io/lasaretty/diplom.html
+# http://deniswebsites.github.io/lasaretty/docs.html
+# http://deniswebsites.github.io/lasaretty/equipment.html
+# http://deniswebsites.github.io/lasaretty/faq.html
+# http://deniswebsites.github.io/lasaretty/stars.html
+# http://deniswebsites.github.io/lasaretty/testimonials.html
+# http://deniswebsites.github.io/lasaretty/thnaks.html
+# http://deniswebsites.github.io/lasaretty/media.html
+# http://deniswebsites.github.io/lasaretty/photos.html
