@@ -10,3 +10,7 @@
 # http://deniswebsites.github.io/lasaretty/thnaks.html
 # http://deniswebsites.github.io/lasaretty/media.html
 # http://deniswebsites.github.io/lasaretty/photos.html
+# http://deniswebsites.github.io/lasaretty/video.html
+# http://deniswebsites.github.io/lasaretty/sale.html
+# http://deniswebsites.github.io/lasaretty/certificate.html
+# http://deniswebsites.github.io/lasaretty/studio.html

@@ -2787,9 +2787,306 @@ a.video_box:hover {
 
 /*-- /Section 1 - Media --*/
 
+/*-- Section 1 - Video --*/
 
+.video_thumbs {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 7px -12px 3px -12px;
+}
 
+.video_thumb {
+    width: calc(50% - 24px);
+    margin: 12px 12px;
+}
 
+.video_thumb .img_box {
+    display: block;
+    height: 320px;
+    background: #EDF8FB;
+    position: relative;
+    -webkit-transition-property: box-shadow;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: box-shadow;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: box-shadow;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: box-shadow;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: box-shadow;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.video_thumb .img_box:link,
+.video_thumb .img_box:visited {
+    box-shadow: none;
+}
+
+.video_thumb .img_box:active,
+.video_thumb .img_box.active,
+.video_thumb .img_box:hover {
+    -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,.3);
+    -moz-box-shadow: 0 5px 15px 0 rgba(0,0,0,.3);
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.3);
+}
+
+.video_thumb .img_box img {
+    display: block;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%); 
+}
+
+.video_thumb .img_box svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.video_thumb .descript {
+    padding: 18px 0 6px 0;
+}
+
+.video_thumb .descript h3 {
+    padding: 13px 0;
+    text-transform: none;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #333;
+}
+
+.video_thumb .descript p {
+    padding: 13px 0;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+}
+
+/*-- /Section 1 - Video --*/
+
+/*-- Section 1 - Акции --*/
+
+.sales_thumbs_2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 7px -12px 11px -12px;
+}
+
+.sale_thumb_2 {
+    width: calc(50% - 24px);
+    margin: 12px;
+}
+
+.sale_thumb_2 .img_box {
+    display: block;
+    height: 320px;
+    border-radius: 16px;
+    background: #EDF8FB;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition-property: box-shadow;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: box-shadow;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: box-shadow;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: box-shadow;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: box-shadow;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.sale_thumb_2 .img_box:link,
+.sale_thumb_2 .img_box:visited {
+    box-shadow: none;
+}
+
+.sale_thumb_2 .img_box:active,
+.sale_thumb_2 .img_box.active,
+.sale_thumb_2 .img_box:hover {
+    -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,.3);
+    -moz-box-shadow: 0 5px 15px 0 rgba(0,0,0,.3);
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.3);
+}
+
+.sale_thumb_2 .img_box img {
+    display: block;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%); 
+}
+
+.sale_thumb_2 .descript {
+    padding: 19px 0 7px 0;
+}
+
+.sale_thumb_2 .descript h4 {
+    display: flex;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: .05em;
+    color: #000;
+}
+
+.sale_thumb_2 .descript h4:before {
+    display: block;
+    content: "";
+    width: 37px;
+    height: 2px;
+    background: #000;
+    margin: 9px 5px 0 0;
+}
+
+.sale_thumb_2 .descript h3 {
+    text-transform: none;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+    color: #333;
+}
+
+.sale_thumb_2 .price {
+    padding: 14px 0 11px 0;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.sale_thumb_2 .blue {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #96C9D3;
+}
+
+.sale_thumb_2 .old_prive {
+    text-decoration-line: line-through;
+}
+
+.thumb_pills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.thumb_pills > div:nth-child(odd) {
+    width: 50%;
+    padding: 8px 8px 8px 0;
+}
+
+.thumb_pills > div:nth-child(even) {
+    width: 50%;
+    padding: 8px 0 8px 8px;
+}
+
+.thumb_pills .blue_pill {
+    width: 100%;
+}
+
+.time_pill {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 32px;
+    min-height: 48px;
+    border: 1px solid #C5DEE3;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 133%;
+    color: #6CABB9;
+}
+
+/*-- /Section 1 - Акции --*/
+
+/*-- Section 1 - Certificate --*/
+
+.certif_thumbs {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px -10px;
+}
+
+.certif_thumb {
+    margin: 10px;
+    width: calc(50% - 20px);
+}
+
+.certif_thumb .img_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 311px;
+    background: #EDF8FB;
+    border-radius: 16px;
+    position: relative;
+}
+
+.certif_thumb .img_box img {
+    display: block;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%); 
+}
+
+.certif_thumb .img_box p {
+    width: 100%;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #6CABB9;
+}
+
+.certif_thumb .black_pill {
+    margin: 20px 0;
+}
+
+/*-- /Section 1 - Certificate --*/
 
 
 
