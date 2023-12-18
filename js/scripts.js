@@ -89,6 +89,18 @@ $(document).ready(function() {
         });
     }
 
+    if( $(".testimonial_slider").length > 0 ) {
+        $(".testimonial_slider").not(".slick-initialized").slick({
+            dots: true,
+            arrows: false,
+            // autoplay: true,
+            autoplaySpeed: 4000,
+            speed: 1200,
+            slidesToShow: 3,
+            slidesToScroll: 1
+        });
+    }
+
 // ----------------
 
     $(".dropdown_item_title").on("click", function(e) {
