@@ -14,3 +14,6 @@
 # http://deniswebsites.github.io/lasaretty/sale.html
 # http://deniswebsites.github.io/lasaretty/certificate.html
 # http://deniswebsites.github.io/lasaretty/studio.html
+# http://deniswebsites.github.io/lasaretty/price.html
+# http://deniswebsites.github.io/lasaretty/price_kp.html
+# http://deniswebsites.github.io/lasaretty/price_le.html

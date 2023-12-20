@@ -3046,6 +3046,38 @@ a.video_box:hover {
 .certif_thumb {
     margin: 10px;
     width: calc(50% - 20px);
+    -webkit-transition-property: box-shadow;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: box-shadow;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: box-shadow;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: box-shadow;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: box-shadow;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.certif_thumb:link,
+.certif_thumb:visited {
+    box-shadow: none;
+}
+
+.certif_thumb:active,
+.certif_thumb.active,
+.certif_thumb:hover {
+    -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,.3);
+    -moz-box-shadow: 0 5px 15px 0 rgba(0,0,0,.3);
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.3);
 }
 
 .certif_thumb .img_box {
@@ -3088,9 +3120,281 @@ a.video_box:hover {
 
 /*-- /Section 1 - Certificate --*/
 
+/*-- Section 1 - Цены --*/
 
+.prices_thumbs {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px -10px 39px -10px;
+}
 
+.price_thumb {
+    width: calc(50% - 20px);
+    margin: 10px;
+    border-radius: 16px;
+    padding: 50px 295px 27px 54px;
+    position: relative;
+    background: #f6f4f5;
+    -webkit-transition-property: box-shadow;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
 
+    -moz-transition-property: box-shadow;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: box-shadow;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: box-shadow;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: box-shadow;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.price_thumb:link,
+.price_thumb:visited {
+    box-shadow: none;
+}
+
+.price_thumb:active,
+.price_thumb.active,
+.price_thumb:hover {
+    -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,.3);
+    -moz-box-shadow: 0 5px 15px 0 rgba(0,0,0,.3);
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.3);
+}
+
+.price_thumb h3 {
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #121617;
+}
+
+.price_thumb img {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 35px;
+}
+
+/*-- /Section 1 - Цены --*/
+
+/*-- Section 2 - Main Page --*/
+
+.sale_thumb.white .descript h3 {
+    color: #fff;
+}
+
+.sale_thumb.white .descript p {
+    color: #fff;
+}
+
+/*-- /Section 2 - Main Page --*/
+
+/*-- Section 1 - Price Single --*/
+
+.prices_tabs {
+    padding: 6px 0 31px 0;
+}
+
+.price_two_cols {
+    display: flex;
+}
+
+.price_two_cols > div:nth-child(1) {
+    width: 245px;
+    padding: 10px 10px 10px 0;
+}
+
+.price_two_cols > div:nth-child(2) {
+    width: calc(100% - 245px);
+    padding: 10px 0 10px 10px;
+}
+
+.inner_tab_two_cols {
+    display: flex;
+}
+
+.inner_tab_two_cols > div:nth-child(1) {
+    width: 320px;
+    padding: 0 10px 10px 0;
+}
+
+.inner_tab_two_cols > div:nth-child(2) {
+    width: calc(100% - 320px);
+    padding: 0 0 10px 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.inner_tab_title {
+
+}
+
+.inner_tab_title h3 {
+    text-transform: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 36px;
+    color: #121617;
+}
+
+.tab_list_2 {
+    padding: 7px 0;
+}
+
+.tab_list_2 li {
+    padding: 2px 0;
+}
+
+.tab_link_2 {
+    display: inline-block;
+    vertical-align: top;
+    padding: 2px 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #121617;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    -webkit-transition-property: border-bottom;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: border-bottom;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: border-bottom;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: border-bottom;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: border-bottom;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.tab_link_2:link,
+.tab_link_2:visited {
+    border-bottom: 2px solid transparent;
+}
+
+.tab_link_2:active,
+.tab_link_2.active,
+.tab_link_2:hover {
+    border-bottom: 2px solid #96C9D3;
+}
+
+.inner_tab_content {
+    min-height: 229px;
+    padding: 9px 0 10px 0;
+}
+
+.inner_tab_content p {
+    font-size: 14px;
+    line-height: 17px;
+    color: #121617;
+}
+
+.inner_tab_content p a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 133%;
+    text-decoration-line: underline;
+    color: #6CABB9;
+}
+
+.inner_tab_content p a:hover {
+    text-decoration-line: none;
+}
+
+.inner_tab_table {
+    padding: 8px 0 25px 0;
+}
+
+.inner_tab_table_row {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #DAE0E1;
+}
+
+.inner_tab_table_row > div:nth-child(1) {
+    width: calc(100% - 70px);
+    padding: 10px 5px 9px 0;
+}
+
+.inner_tab_table_row > div:nth-child(2) {
+    width: 70px;
+    padding: 10px 0 9px 5px;
+    text-align: right;
+}
+
+.inner_tab_table_row.blue_text > div:nth-child(1) {
+    width: 135px;
+    padding: 10px 5px 9px 0;
+}
+
+.inner_tab_table_row.blue_text > div:nth-child(2) {
+    width: calc(100% - 135px);
+    padding: 10px 0 9px 5px;
+    text-align: right;
+}
+
+.inner_tab_table_row p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #121617;
+}
+
+.inner_tab_table_row p .blue_price_2 {
+    font-weight: 600;
+    color: #6CABB9;
+}
+
+.inner_tab_table_row p .old_rice_2 {
+    text-decoration-line: line-through;
+}
+
+.inner_tab_table_row p b {
+    font-weight: 700;
+}
+
+.inner_tab_footer {
+
+}
+
+.inner_tab_footer .blue_pill {
+    width: 100%;
+}
+
+.tab_img_box {
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.tab_img_box img {
+    display: block;
+    height: auto;
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+}
+
+/*-- /Section 1 - Price Single --*/
 
 
 
