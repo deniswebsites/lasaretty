@@ -124,6 +124,12 @@ $(document).ready(function() {
       $(this).addClass("active");
     });
 
+    $(".tab_link_2").on("click", function(e) {
+      parent = $(this).closest(".tab_list_2");
+      parent.find(".tab_link_2").removeClass("active");
+      $(this).addClass("active");
+    });
+
 });
 
 });
